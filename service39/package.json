@@ -1,0 +1,7 @@
+{
+  "name": "service39",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
