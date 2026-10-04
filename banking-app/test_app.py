@@ -7,4 +7,6 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"Banking Application is running" in response.data
+    assert b"MyBank" in response.data
+    assert b"Username" in response.data
+    assert b"Password" in response.data
